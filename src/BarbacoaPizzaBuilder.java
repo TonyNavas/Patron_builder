@@ -5,14 +5,14 @@ public class BarbacoaPizzaBuilder extends PizzaBuilder {
     }
     @Override
     public void crearMasa() {
-        pizza.setMasa("gorda");
+        pizza.setMasa("Grande");
     }
     @Override
     public void crearSalsa() {
-        pizza.setSalsa("barbacoa");
+        pizza.setSalsa("Barbecue");
     }
     @Override
     public void crearIngredientes() {
-        pizza.setIngredientes("mozzarella, ternera, cebolla, maíz");
+        pizza.setIngredientes("tomate, pechuga, cebolla, carne");
     }
 }
